@@ -1,12 +1,13 @@
 {
   "name": "camera.mood",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Use mediaDevices",
   "repository": "domutala/camera.mood",
   "homepage": "https://domutala.github.io/camera.mood/",
   "main": "dist/camera.bundle.js",
   "css": "dist/camera.css",
   "scss": "dist/camera.scss",
+  "typings": "types/index.d.ts",
   "private": false,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",

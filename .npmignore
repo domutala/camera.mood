@@ -7,7 +7,7 @@ build
 webpack.common.js
 webpack.dev.js
 webpack.prod.js
-tsconfig.js
+tsconfig.json
 
 # local env files
 .env.local
