@@ -1,1 +1,3 @@
-export { default as Camera } from '../src/camera';
+import Camera from '../src/camera';
+
+export default Camera;
