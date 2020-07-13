@@ -5,6 +5,7 @@ export interface CameraObject {
 }
 
 export declare class Camera {
+  private mediaStream: MediaStream;
   private el: HTMLElement;
   private video: HTMLVideoElement;
 
