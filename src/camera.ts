@@ -6,7 +6,7 @@ interface CameraObject {
   name: string;
 }
 
-export default class Camera {
+export class Camera {
   private mediaStream!: MediaStream;
 
   private parent: Element = document.body;
@@ -16,7 +16,7 @@ export default class Camera {
   private video = document.createElement('video');
   private facingMode: boolean = false;
   private delay: number = 0;
-  private accept: string = 'image/*,video/*';
+  private accept: string = 'image/*';
   private mode: 'video' | 'photo' = 'photo';
   private ratio: number = 1;
 

@@ -15,7 +15,7 @@ yarn add camera.mood
 ## Usage
 
 ```typescript
-import camera from 'camera.mood';
+import { Camera } from 'camera.mood';
 import 'camera.mood/dist/camera.css';
 
 const camera = new Camera({ parent: '#app' });

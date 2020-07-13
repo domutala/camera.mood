@@ -4,7 +4,7 @@ export interface CameraObject {
   name: string;
 }
 
-declare class Camera {
+export declare class Camera {
   private el: HTMLElement;
   private video: HTMLVideoElement;
 
@@ -44,5 +44,3 @@ declare class Camera {
   public capture(): void;
   public remove(): void;
 }
-
-export default Camera;

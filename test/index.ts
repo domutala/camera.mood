@@ -1,4 +1,4 @@
-import Camera from '../src/camera';
+import { Camera } from '../src/camera';
 import '../src/camera.scss';
 
 const camera = new Camera({
