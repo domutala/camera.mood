@@ -5,9 +5,9 @@ export interface CameraObject {
 }
 
 export declare class Camera {
-  private mediaStream: MediaStream;
-  private el: HTMLElement;
-  private video: HTMLVideoElement;
+  public readonly mediaStream: MediaStream;
+  public readonly el: HTMLElement;
+  public readonly video: HTMLVideoElement;
 
   constructor({
     parent,
